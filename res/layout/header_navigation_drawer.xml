@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    android:background="@drawable/profile_background" >
+
+    <ImageView
+        android:id="@+id/profile_picture"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/profile_image" />
+
+    <TextView
+        android:id="@+id/navigation_drawer_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile_picture"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:text="Shobhit Saxena"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/navigation_drawer_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/navigation_drawer_name"
+        android:layout_centerHorizontal="true"
+        android:text="shobhitsaxena@live.com"
+        android:textColor="#FFFFFF"
+        android:textSize="14sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>

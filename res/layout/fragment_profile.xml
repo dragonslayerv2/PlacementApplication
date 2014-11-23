@@ -1,0 +1,190 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="10dp"
+    android:background="#DDDDDDEE"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_company_list"
+        android:orientation="horizontal"
+        android:weightSum="5" >
+
+        <ImageView
+            android:id="@+id/fragment_profile_pic"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1"
+            android:src="@drawable/profile_image" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_weight="4"
+            android:gravity="center_vertical"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/fragment_profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fragment_profile_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8D8D8D"
+                android:textSize="16sp" />
+            <TextView
+                android:id="@+id/fragment_profile_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8D8D8D"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_company_list"
+        android:orientation="horizontal"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Resume : "
+            android:textSize="17sp"
+            android:textStyle="bold" 
+            />
+
+        
+            <Button
+                android:id="@+id/fragment_profile_download"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/shadowbutton"
+                android:text="Download"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:layout_marginLeft="20dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/apply_dialog_no_upload"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:background="@drawable/shadowbutton"
+                android:layout_marginLeft="10dp"
+                android:text="Upload"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/selector_company_list"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Course : "
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fragment_profile_course"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8D8D8D"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Majors : "
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fragment_profile_majors"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8D8D8D"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Backlogs : "
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fragment_profile_backlogs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8D8D8D"
+                android:textSize="16sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CGPA : "
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/fragment_profile_cgpa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#8D8D8D"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

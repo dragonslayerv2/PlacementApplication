@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:background="@drawable/selector_notifications_list"
+    android:orientation="horizontal"
+    android:weightSum="5" >
+
+    <ImageView
+        android:id="@+id/notification_company_logo_icon"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_weight="1"
+        android:src="@drawable/default_company_logo" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_weight="4"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/notification_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/notification_description"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:textColor="#8D8D8D"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

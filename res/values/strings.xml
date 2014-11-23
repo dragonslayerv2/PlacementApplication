@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Placements</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Placements</string>
+    <string name="drawer_close">Placements</string>
+
+    <string-array name="drawer_items">
+        <item>Companies</item>
+        <item>Notifications</item>
+        <item>Profile</item>
+        <item>Sign Out</item>
+    </string-array>
+    <string-array name="company_tab_labels">
+        <item>Applied</item>
+        <item>Elliglble</item>
+        <item>All</item>
+    </string-array>
+
+</resources>

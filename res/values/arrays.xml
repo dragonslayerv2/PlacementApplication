@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="navigation_icons">
+        <item>@drawable/ic_company</item>
+        <item>@drawable/ic_notifications</item>
+        <item>@drawable/ic_profile</item>
+        <item>@drawable/ic_signout</item>
+    </string-array>
+</resources>
